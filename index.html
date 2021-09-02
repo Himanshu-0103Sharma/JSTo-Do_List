@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dafc35ca56.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do list</title>
+</head>
+<body>
+    <div class="grid">
+        <header>
+            <h1>To-Do List</h1>
+            <div class="form">
+                <input class = 'input' type = 'text' placeholder = 'Add items to your list'>
+                <button class = 'submit'>+</button>
+            </div>
+        </header>
+        
+
+        <ul class = 'todo_list'>
+        </ul>
+
+
+        <footer>
+            <h3>You Have <span class = 'pending_tasks'>0</span> Pending Tasks <button class = "del" onclick = "clearAll();">Clear All</button></span></h3>
+        </footer>
+    </div>
+    <script src = 'app.js'></script>
+</body>
+</html>

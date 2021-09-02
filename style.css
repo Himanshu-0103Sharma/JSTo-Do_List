@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(cyan, blue);
+}
+
+
+.grid{
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.65);
+    background: white;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+.form input{
+    width: 60%;
+    padding: 7px;
+    border: 1px solid rgba(128,128,128,0.35);
+    outline: 0;
+}
+
+.form button,.del{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(173, 255, 47);
+    border: none;
+    cursor: pointer;
+    padding: 7px 10px;
+}
+
+
+header button:hover, .del:hover{
+    background-color: rgba(173, 255, 47, 0.55);
+}
+
+
+ul{
+    list-style: none;
+    margin: 10px 0px;
+}
+
+
+ul li{
+    padding: 10px;
+    margin: 3px;
+    border-radius: 3px;
+    background: rgba(128,128,128,0.15);
+    overflow-x: hidden;
+}
+
+li span{
+    float: right;
+    margin-right: -25px;
+    transition: .5s;
+    color: red;
+    cursor: pointer;
+}
+
+
+ul li:hover span{
+    margin-right: -5px;
+}
+
+
+footer{
+    margin: 0px 4px;
+}
